@@ -309,3 +309,10 @@ function setActiveButtonBasedOnHash() {
 
 // Gọi hàm khi trang tải xong hoặc khi URL thay đổi
 window.onload = setActiveButtonBasedOnHash();
+$(document).ready(function() {
+    $('.career-card').click(function(e) {
+        // Remove greyed-out class from all cards and add it back to all except the active one
+        $('.career-card').not(this).addClass('greyed-out');
+        $(this).removeClass('greyed-out');
+    });
+});

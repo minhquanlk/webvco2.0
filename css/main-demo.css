@@ -80,6 +80,16 @@
     width: 150px;
 }
 
+.greyed-out {
+    filter: grayscale(20%);
+    opacity: 0.3;
+}
+
+.greyed-out:hover {
+    filter: none;
+    opacity: 1;
+}
+
 .loader__logo img {
     display: block;
     width: 100%;
@@ -1841,6 +1851,10 @@ form .inputs-description {
     background-image: url(../img/demo/careers/CEO.jpg);
 }
 
+.image-jd-1 {
+    background-image: url(../img/demo/careers/1.jpg);
+}
+
 .intro_bg {
     background-repeat: no-repeat;
     background-position: center top;
@@ -1869,6 +1883,15 @@ form .inputs-description {
 
 .portfolio-title {
     background-color: #ec1c14 !important;
+}
+
+.job-title {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.job-bg {
+    padding: 5rem 5rem !important;
 }
 
 .portfolio {
@@ -2032,6 +2055,10 @@ form .inputs-description {
 
 .text-solution {
     font-size: 2rem !important;
+}
+
+.text-jd {
+    font-size: 1.7rem !important;
 }
 
 .portfolio-padding {

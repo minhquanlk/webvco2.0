@@ -84,7 +84,6 @@ dl,
 dt,
 dd,
 ol,
-ul,
 li,
 fieldset,
 form,
@@ -144,11 +143,6 @@ body {
     line-height: 1;
 }
 
-ol,
-ul {
-    list-style: none;
-}
-
 blockquote,
 q {
     quotes: none;
@@ -169,6 +163,10 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+b {
+    font-weight: 700;
 }
 
 
