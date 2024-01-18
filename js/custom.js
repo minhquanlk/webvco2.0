@@ -316,3 +316,35 @@ $(document).ready(function() {
         $(this).removeClass('greyed-out');
     });
 });
+
+document.querySelectorAll('.career-card').forEach(function(div) {
+
+    div.addEventListener('click', function() {
+        // Hide all B divs
+        var jobDT = document.querySelectorAll('.job-dt-card');
+        jobDT.forEach(function(contentDiv) {
+            contentDiv.style.opacity = '0';
+            contentDiv.style.transform = 'translateY(20px)';
+            setTimeout(function() {
+
+                contentDiv.setAttribute('style', 'display:none; opacity: 0; transform: translateY(20px);');
+            }, 500);
+        });
+
+        var className = "." + this.id;
+        var jobShow = document.querySelector(className);
+        setTimeout(function() {
+            jobShow.style.display = 'block';
+
+        }, 500);
+        setTimeout(function() {
+            jobShow.style.opacity = '1';
+            jobShow.style.transform = 'translateY(0px)';
+            var offsetTop = jobShow.getBoundingClientRect().top + window.scrollY - 140;
+            window.scrollTo({
+                top: offsetTop,
+                behavior: 'smooth'
+            });
+        }, 650);
+    });
+});

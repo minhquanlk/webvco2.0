@@ -553,6 +553,12 @@ h1 {
     .subscribe__title .descr {
         font-size: 3rem;
     }
+    .career-background .subscribe__title .title {
+        font-size: 5rem;
+    }
+    .career-background .subscribe__title .descr {
+        font-size: 2.5rem;
+    }
 }
 
 p {
@@ -607,7 +613,6 @@ p.additional-text a {
 
 .rounded-tag {
     display: inline-block;
-    height: 2.8rem;
     padding: 0 1rem;
     margin: 0.5rem 1rem 0.5rem 0;
     font: normal 500 1.4rem/2.7rem "Montserrat", sans-serif;
@@ -711,13 +716,13 @@ form textarea.margin-s {
 
 form input {
     height: 6.4rem;
-    margin: 0 0 3.4rem 0;
+    margin: 0 0 1rem 0;
 }
 
 form textarea {
     height: 16rem;
     resize: none;
-    margin: 0 0 2.4rem 0;
+    margin: 0 0 1rem 0;
 }
 
 form input.margin-s,
@@ -807,23 +812,23 @@ form .inputs-description {
 
 .form-light input:focus:required:invalid,
 .form-light textarea:focus:required:invalid {
-    color: #ced8ef;
+    color: #272727;
 }
 
 .form-light input:required:valid,
 .form-light textarea:required:valid {
-    color: #ced8ef;
+    color: #272727;
 }
 
 .form-light input,
 .form-light textarea {
-    border-bottom: 2px solid #9097a3;
-    color: #ced8ef;
+    border-bottom: 2px solid #afafaf;
+    color: #292929;
 }
 
 .form-light input:focus,
 .form-light textarea:focus {
-    border-bottom: 2px solid #ffffff;
+    border-bottom: 2px solid #2e2e2e;
 }
 
 .form-light .inputs-description {
@@ -2276,6 +2281,14 @@ form .inputs-description {
     }
 }
 
+.career-background {
+    background-image: url(../img/demo/talentprogram.jpg) !important;
+    background-position: left top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
 .subscribe__form {
     padding: 5rem 2rem;
 }
@@ -2295,6 +2308,10 @@ form .inputs-description {
 .subscribe__title,
 .form-container {
     max-width: 560px;
+}
+
+.career-background .subscribe__title {
+    max-width: 90vw;
 }
 
 .subscribe__image {
@@ -2810,6 +2827,13 @@ form .inputs-description {
 
 .content-nav {
     display: block;
+    /* Mặc định ẩn tất cả */
+    opacity: 1;
+    transition: opacity 0.5s, transform 0.5s !important;
+}
+
+.job-dt-card {
+    display: none;
     /* Mặc định ẩn tất cả */
     opacity: 1;
     transition: opacity 0.5s, transform 0.5s !important;
