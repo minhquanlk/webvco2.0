@@ -2100,6 +2100,10 @@ form .inputs-description {
     }
 }
 
+.testimonial-pd {
+    padding: 0 0;
+}
+
 .card__item {
     position: relative;
     height: 100%;

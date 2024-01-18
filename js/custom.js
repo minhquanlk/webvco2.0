@@ -61,16 +61,16 @@ $(function() {
     // --------------------------------------------- //
     var swiper = new Swiper('.swiper', {
         // Optional parameters
-        grabCursor: true,
-        effect: "creative",
-        creativeEffect: {
-            prev: {
-                translate: ["-20%", 0, -1],
-            },
-            next: {
-                translate: ["100%", 0, 0],
-            },
-        },
+        allowTouchMove: false,
+        effect: "slide",
+        // creativeEffect: {
+        //     prev: {
+        //         translate: ["-20%", 0, -1],
+        //     },
+        //     next: {
+        //         translate: ["100%", 0, 0],
+        //     },
+        // },
         parallax: true,
         speed: 1300,
         loop: true,
