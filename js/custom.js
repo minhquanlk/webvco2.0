@@ -1192,7 +1192,7 @@ function filterContent(category) {
 
                 fileButton.addEventListener('change', function(e) {
 
-                    console.log('connect to firebase');
+
 
                     var fileName = e.target.files[0].name;
                     inputfile.value = fileName;
