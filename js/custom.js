@@ -385,7 +385,7 @@ $('#job2').on('click', function() {
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
     <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group?</label>
+        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
         <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
@@ -557,7 +557,7 @@ $('#job1').on('click', function() {
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
     <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group?</label>
+        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
         <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
@@ -728,7 +728,7 @@ $('#job3').on('click', function() {
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
     <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group?</label>
+        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
         <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
@@ -899,7 +899,7 @@ $('#job4').on('click', function() {
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
     <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group?</label>
+        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
         <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
@@ -1071,7 +1071,7 @@ $('#job5').on('click', function() {
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
     <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group?</label>
+        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
         <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 

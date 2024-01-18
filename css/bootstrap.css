@@ -777,6 +777,10 @@
      aaaaaor: #1cbb8c
  }
  
+ .invalid {
+     color: #ec1c14;
+ }
+ 
  .valid-tooltip {
      position: absolute;
      top: 100%;
@@ -11091,6 +11095,7 @@
      margin: 0;
      font: inherit;
      aaaaaor: inherit;
+     border-radius: 3rem;
  }
  
  .avd button {
@@ -12963,6 +12968,10 @@
      aaaaaor: #636363;
  }
  
+ input[type=file]::file-selector-button {
+     border-radius: 3em;
+ }
+ 
  .form-control {
      display: block;
      width: 100%;
@@ -12977,7 +12986,7 @@
      -webkit-appearance: none;
      -moz-appearance: none;
      appearance: none;
-     border-radius: .25rem;
+     border-radius: 3rem;
      -webkit-transition: border-aaaaaor .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
      transition: border-aaaaaor .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
      transition: border-aaaaaor .15s ease-in-out, box-shadow .15s ease-in-out;
@@ -20544,7 +20553,7 @@
      box-shadow: none;
      -webkit-border-radius: 3px;
      -moz-border-radius: 3px;
-     border-radius: 3px;
+     border-radius: 3rem;
  }
  
  .avd .form-control:focus {
