@@ -398,8 +398,8 @@ $('#job2').on('click', function() {
         <em class="btn-hover">Apply</em>
         </span>
     </button>
-    <div id="loading" style="display: none; ">
-        <p>Đang xử lý...</p>
+    <div id="loading" style="display: none;  margin-top: 1rem;">
+        <p>Processing...</p>
     </div>
 </form>`;
     const selectReasonUni = document.getElementById('university');
@@ -570,8 +570,8 @@ $('#job1').on('click', function() {
         <em class="btn-hover">Apply</em>
         </span>
     </button>
-    <div id="loading" style="display: none; ">
-        <p>Đang xử lý...</p>
+    <div id="loading" style="display: none;  margin-top: 1rem;">
+        <p>Processing...</p>
     </div>
 </form>`;
     const selectReasonUni = document.getElementById('university');
@@ -741,8 +741,8 @@ $('#job3').on('click', function() {
         <em class="btn-hover">Apply</em>
         </span>
     </button>
-    <div id="loading" style="display: none; ">
-        <p>Đang xử lý...</p>
+    <div id="loading" style="display: none;  margin-top: 1rem;">
+        <p>Processing...</p>
     </div>
 </form>`;
     const selectReasonUni = document.getElementById('university');
@@ -912,8 +912,8 @@ $('#job4').on('click', function() {
         <em class="btn-hover">Apply</em>
         </span>
     </button>
-    <div id="loading" style="display: none; ">
-        <p>Đang xử lý...</p>
+    <div id="loading" style="display: none;  margin-top: 1rem;">
+        <p>Processing...</p>
     </div>
 </form>`;
     const selectReasonUni = document.getElementById('university');
@@ -1084,8 +1084,8 @@ $('#job5').on('click', function() {
         <em class="btn-hover">Apply</em>
         </span>
     </button>
-    <div id="loading" style="display: none; ">
-        <p>Đang xử lý...</p>
+    <div id="loading" style="display: none;  margin-top: 1rem;">
+        <p>Processing...</p>
     </div>
 </form>`;
     const selectReasonUni = document.getElementById('university');
