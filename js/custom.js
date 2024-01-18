@@ -961,7 +961,7 @@ $('#job5').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="formFile" name="position" value="CEO">
+    <input type="hidden" id="position" name="position" value="CEO">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
