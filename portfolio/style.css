@@ -936,6 +936,12 @@ a.read-more:hover:after {
     margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+    .portfolio-wrapper {
+        padding: 0 1rem 0 1rem;
+    }
+}
+
 .grid {
     max-width: 1760px;
     margin: 0 auto;
@@ -1296,12 +1302,13 @@ a.read-more:hover:after {
 
 @media screen and (max-width: 700px) {
     .grid-item {
-        border: 4px solid white;
+        border: 4px solid #ededed;
     }
 }
 
 @media screen and (max-width: 400px) {
     .grid-item {
-        border: 2px solid white;
+        border: 2px solid #ededed;
+        border-radius: 2rem;
     }
 }

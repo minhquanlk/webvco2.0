@@ -1178,6 +1178,13 @@ form .inputs-description {
     transition: transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -webkit-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09), -moz-transform 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
 }
 
+.btn-bottom .circle.mini {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid #ffffff;
+    background-color: white;
+}
+
 .btn-bottom .circle__icon {
     display: -webkit-box;
     display: -moz-box;
@@ -2123,6 +2130,26 @@ form .inputs-description {
     box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
 }
 
+@media (max-width: 768px) {
+    .card__item {
+        -webkit-box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
+        -moz-box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
+        box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
+    }
+    .job-bg {
+        padding: 2rem !important;
+    }
+    .demo__wrapper {
+        padding-top: 86px;
+    }
+    .swiper.video {
+        height: 200px;
+    }
+    .swiper.testimonial {
+        max-height: 300px;
+    }
+}
+
 .card__image {
     display: block;
     cursor: pointer;
@@ -2228,6 +2255,9 @@ form .inputs-description {
 @media only screen and (min-width: 768px) {
     .card__caption {
         padding: 3rem;
+    }
+    .btn-mobile {
+        display: none !important;
     }
 }
 
