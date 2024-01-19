@@ -340,9 +340,6 @@ $('#job2').on('click', function() {
         <select class="form-select" id="location" name="location" required>
         <option selected disabled value="">Choose your city</option>
         <option value="Ho Chi Minh City">Ho Chi Minh City</option>
-        <option value="Ha Noi City">Ha Noi City</option>
-        <option value="Da Nang City">Da Nang City</option>
-        <option value="Oversea">Oversea</option>
         <option value="Other">Other provinces</option>
     </select>
         <div class="invalid-feedback"> Please select. </div>
@@ -354,21 +351,22 @@ $('#job2').on('click', function() {
         <div class="col-md-6 mb-3">
             <label for="university" class="form-label">9. Your university: <strong style="color: red;">*</strong></label>
             <select class="form-select" id="university" name="university" required>
-            <option selected disabled value="">Choose your university</option>
-            <option value="HANU - Hanoi University">  HANU - Hanoi University</option>
-            <option value="VNU-ULIS - University of Languages and International Studies">VNU-ULIS - University of Languages and International Studies</option>
-            <option value="FTU - Foreign Trade University">FTU - Foreign Trade University</option>
-            <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
-            <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
-            <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
-            <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
-            <option value="TLU - Thuyloi University">TLU - Thuyloi University</option>
-            <option value="USSH-VNUHCM - University of Social Sciences and Humanities">USSH-VNUHCM - University of Social Sciences and Humanities</option>
-            <option value="VLU - Van Lang University">VLU - Van Lang University</option>
-            <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>
-            <option value="TDTU - Ton Duc Thang University">TDTU - Ton Duc Thang University</option>
-            <option value="Other">Other</option>
-        </select>
+    <option selected disabled value="">Choose your university</option>
+    <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
+    <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
+    <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
+    <option value="BUH - Banking University of Ho Chi Minh City">BUH - Banking University of Ho Chi Minh City</option>
+    <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>    <option value="HUTECH - Ho Chi Minh City University of Technology">HUTECH - Ho Chi Minh City University of Technology</option>
+    <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
+    <option value="VLU - Van Lang University">VLU - Van Lang University</option>
+    <option value="Lac Hong University - Lac Hong University">Lac Hong University - Lac Hong University</option>
+    <option value="STU - Saigon Technology University">STU - Saigon Technology University</option>
+    <option value="VAN HIEN - Van Hien University">VAN HIEN - Van Hien University</option>
+    <option value="HCMUTE - Ho Chi Minh City University of Technology and Education">HCMUTE - Ho Chi Minh City University of Technology and Education</option>
+    <option value="UEL - University of Economics and Law">UEL - University of Economics and Law</option>
+    <option value="HCMULAW - Ho Chi Minh City University of Law">HCMULAW - Ho Chi Minh City University of Law</option>
+    <option value="Other">Other</option>
+</select>
             <div class="invalid-feedback"> Please select. </div>
             <input type="text" id="other-university" name="other-university" class="mt-3 form-control hidden" placeholder="Enter your University/College">
 
@@ -512,9 +510,6 @@ $('#job1').on('click', function() {
         <select class="form-select" id="location" name="location" required>
         <option selected disabled value="">Choose your city</option>
         <option value="Ho Chi Minh City">Ho Chi Minh City</option>
-        <option value="Ha Noi City">Ha Noi City</option>
-        <option value="Da Nang City">Da Nang City</option>
-        <option value="Oversea">Oversea</option>
         <option value="Other">Other provinces</option>
     </select>
         <div class="invalid-feedback"> Please select. </div>
@@ -526,21 +521,22 @@ $('#job1').on('click', function() {
         <div class="col-md-6 mb-3">
             <label for="university" class="form-label">9. Your university: <strong style="color: red;">*</strong></label>
             <select class="form-select" id="university" name="university" required>
-            <option selected disabled value="">Choose your university</option>
-            <option value="HANU - Hanoi University">  HANU - Hanoi University</option>
-            <option value="VNU-ULIS - University of Languages and International Studies">VNU-ULIS - University of Languages and International Studies</option>
-            <option value="FTU - Foreign Trade University">FTU - Foreign Trade University</option>
-            <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
-            <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
-            <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
-            <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
-            <option value="TLU - Thuyloi University">TLU - Thuyloi University</option>
-            <option value="USSH-VNUHCM - University of Social Sciences and Humanities">USSH-VNUHCM - University of Social Sciences and Humanities</option>
-            <option value="VLU - Van Lang University">VLU - Van Lang University</option>
-            <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>
-            <option value="TDTU - Ton Duc Thang University">TDTU - Ton Duc Thang University</option>
-            <option value="Other">Other</option>
-        </select>
+    <option selected disabled value="">Choose your university</option>
+    <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
+    <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
+    <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
+    <option value="BUH - Banking University of Ho Chi Minh City">BUH - Banking University of Ho Chi Minh City</option>
+    <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>    <option value="HUTECH - Ho Chi Minh City University of Technology">HUTECH - Ho Chi Minh City University of Technology</option>
+    <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
+    <option value="VLU - Van Lang University">VLU - Van Lang University</option>
+    <option value="Lac Hong University - Lac Hong University">Lac Hong University - Lac Hong University</option>
+    <option value="STU - Saigon Technology University">STU - Saigon Technology University</option>
+    <option value="VAN HIEN - Van Hien University">VAN HIEN - Van Hien University</option>
+    <option value="HCMUTE - Ho Chi Minh City University of Technology and Education">HCMUTE - Ho Chi Minh City University of Technology and Education</option>
+    <option value="UEL - University of Economics and Law">UEL - University of Economics and Law</option>
+    <option value="HCMULAW - Ho Chi Minh City University of Law">HCMULAW - Ho Chi Minh City University of Law</option>
+    <option value="Other">Other</option>
+</select>
             <div class="invalid-feedback"> Please select. </div>
             <input type="text" id="other-university" name="other-university" class="mt-3 form-control hidden" placeholder="Enter your University/College">
 
@@ -683,9 +679,6 @@ $('#job3').on('click', function() {
         <select class="form-select" id="location" name="location" required>
         <option selected disabled value="">Choose your city</option>
         <option value="Ho Chi Minh City">Ho Chi Minh City</option>
-        <option value="Ha Noi City">Ha Noi City</option>
-        <option value="Da Nang City">Da Nang City</option>
-        <option value="Oversea">Oversea</option>
         <option value="Other">Other provinces</option>
     </select>
         <div class="invalid-feedback"> Please select. </div>
@@ -697,21 +690,22 @@ $('#job3').on('click', function() {
         <div class="col-md-6 mb-3">
             <label for="university" class="form-label">9. Your university: <strong style="color: red;">*</strong></label>
             <select class="form-select" id="university" name="university" required>
-            <option selected disabled value="">Choose your university</option>
-            <option value="HANU - Hanoi University">  HANU - Hanoi University</option>
-            <option value="VNU-ULIS - University of Languages and International Studies">VNU-ULIS - University of Languages and International Studies</option>
-            <option value="FTU - Foreign Trade University">FTU - Foreign Trade University</option>
-            <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
-            <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
-            <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
-            <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
-            <option value="TLU - Thuyloi University">TLU - Thuyloi University</option>
-            <option value="USSH-VNUHCM - University of Social Sciences and Humanities">USSH-VNUHCM - University of Social Sciences and Humanities</option>
-            <option value="VLU - Van Lang University">VLU - Van Lang University</option>
-            <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>
-            <option value="TDTU - Ton Duc Thang University">TDTU - Ton Duc Thang University</option>
-            <option value="Other">Other</option>
-        </select>
+    <option selected disabled value="">Choose your university</option>
+    <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
+    <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
+    <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
+    <option value="BUH - Banking University of Ho Chi Minh City">BUH - Banking University of Ho Chi Minh City</option>
+    <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>    <option value="HUTECH - Ho Chi Minh City University of Technology">HUTECH - Ho Chi Minh City University of Technology</option>
+    <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
+    <option value="VLU - Van Lang University">VLU - Van Lang University</option>
+    <option value="Lac Hong University - Lac Hong University">Lac Hong University - Lac Hong University</option>
+    <option value="STU - Saigon Technology University">STU - Saigon Technology University</option>
+    <option value="VAN HIEN - Van Hien University">VAN HIEN - Van Hien University</option>
+    <option value="HCMUTE - Ho Chi Minh City University of Technology and Education">HCMUTE - Ho Chi Minh City University of Technology and Education</option>
+    <option value="UEL - University of Economics and Law">UEL - University of Economics and Law</option>
+    <option value="HCMULAW - Ho Chi Minh City University of Law">HCMULAW - Ho Chi Minh City University of Law</option>
+    <option value="Other">Other</option>
+</select>
             <div class="invalid-feedback"> Please select. </div>
             <input type="text" id="other-university" name="other-university" class="mt-3 form-control hidden" placeholder="Enter your University/College">
 
@@ -854,9 +848,6 @@ $('#job4').on('click', function() {
         <select class="form-select" id="location" name="location" required>
         <option selected disabled value="">Choose your city</option>
         <option value="Ho Chi Minh City">Ho Chi Minh City</option>
-        <option value="Ha Noi City">Ha Noi City</option>
-        <option value="Da Nang City">Da Nang City</option>
-        <option value="Oversea">Oversea</option>
         <option value="Other">Other provinces</option>
     </select>
         <div class="invalid-feedback"> Please select. </div>
@@ -868,21 +859,22 @@ $('#job4').on('click', function() {
         <div class="col-md-6 mb-3">
             <label for="university" class="form-label">9. Your university: <strong style="color: red;">*</strong></label>
             <select class="form-select" id="university" name="university" required>
-            <option selected disabled value="">Choose your university</option>
-            <option value="HANU - Hanoi University">  HANU - Hanoi University</option>
-            <option value="VNU-ULIS - University of Languages and International Studies">VNU-ULIS - University of Languages and International Studies</option>
-            <option value="FTU - Foreign Trade University">FTU - Foreign Trade University</option>
-            <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
-            <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
-            <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
-            <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
-            <option value="TLU - Thuyloi University">TLU - Thuyloi University</option>
-            <option value="USSH-VNUHCM - University of Social Sciences and Humanities">USSH-VNUHCM - University of Social Sciences and Humanities</option>
-            <option value="VLU - Van Lang University">VLU - Van Lang University</option>
-            <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>
-            <option value="TDTU - Ton Duc Thang University">TDTU - Ton Duc Thang University</option>
-            <option value="Other">Other</option>
-        </select>
+    <option selected disabled value="">Choose your university</option>
+    <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
+    <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
+    <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
+    <option value="BUH - Banking University of Ho Chi Minh City">BUH - Banking University of Ho Chi Minh City</option>
+    <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>    <option value="HUTECH - Ho Chi Minh City University of Technology">HUTECH - Ho Chi Minh City University of Technology</option>
+    <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
+    <option value="VLU - Van Lang University">VLU - Van Lang University</option>
+    <option value="Lac Hong University - Lac Hong University">Lac Hong University - Lac Hong University</option>
+    <option value="STU - Saigon Technology University">STU - Saigon Technology University</option>
+    <option value="VAN HIEN - Van Hien University">VAN HIEN - Van Hien University</option>
+    <option value="HCMUTE - Ho Chi Minh City University of Technology and Education">HCMUTE - Ho Chi Minh City University of Technology and Education</option>
+    <option value="UEL - University of Economics and Law">UEL - University of Economics and Law</option>
+    <option value="HCMULAW - Ho Chi Minh City University of Law">HCMULAW - Ho Chi Minh City University of Law</option>
+    <option value="Other">Other</option>
+</select>
             <div class="invalid-feedback"> Please select. </div>
             <input type="text" id="other-university" name="other-university" class="mt-3 form-control hidden" placeholder="Enter your University/College">
 
@@ -1026,9 +1018,6 @@ $('#job5').on('click', function() {
         <select class="form-select" id="location" name="location" required>
         <option selected disabled value="">Choose your city</option>
         <option value="Ho Chi Minh City">Ho Chi Minh City</option>
-        <option value="Ha Noi City">Ha Noi City</option>
-        <option value="Da Nang City">Da Nang City</option>
-        <option value="Oversea">Oversea</option>
         <option value="Other">Other provinces</option>
     </select>
         <div class="invalid-feedback"> Please select. </div>
@@ -1040,21 +1029,22 @@ $('#job5').on('click', function() {
         <div class="col-md-6 mb-3">
             <label for="university" class="form-label">9. Your university: <strong style="color: red;">*</strong></label>
             <select class="form-select" id="university" name="university" required>
-            <option selected disabled value="">Choose your university</option>
-            <option value="HANU - Hanoi University">  HANU - Hanoi University</option>
-            <option value="VNU-ULIS - University of Languages and International Studies">VNU-ULIS - University of Languages and International Studies</option>
-            <option value="FTU - Foreign Trade University">FTU - Foreign Trade University</option>
-            <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
-            <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
-            <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
-            <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
-            <option value="TLU - Thuyloi University">TLU - Thuyloi University</option>
-            <option value="USSH-VNUHCM - University of Social Sciences and Humanities">USSH-VNUHCM - University of Social Sciences and Humanities</option>
-            <option value="VLU - Van Lang University">VLU - Van Lang University</option>
-            <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>
-            <option value="TDTU - Ton Duc Thang University">TDTU - Ton Duc Thang University</option>
-            <option value="Other">Other</option>
-        </select>
+    <option selected disabled value="">Choose your university</option>
+    <option value="UEH - University of Economics Ho Chi Minh City">UEH - University of Economics Ho Chi Minh City</option>
+    <option value="FTU2 - Foreign Trade University Ho Chi Minh City Campus">FTU2 - Foreign Trade University Ho Chi Minh City Campus</option>
+    <option value="IU-VNUHCM - International University">IU-VNUHCM - International University</option>
+    <option value="BUH - Banking University of Ho Chi Minh City">BUH - Banking University of Ho Chi Minh City</option>
+    <option value="HSU - Hoa Sen University">HSU - Hoa Sen University</option>    <option value="HUTECH - Ho Chi Minh City University of Technology">HUTECH - Ho Chi Minh City University of Technology</option>
+    <option value="HUFLIT - HCMC University of Foreign Languages and Information Technology">HUFLIT - HCMC University of Foreign Languages and Information Technology</option>
+    <option value="VLU - Van Lang University">VLU - Van Lang University</option>
+    <option value="Lac Hong University - Lac Hong University">Lac Hong University - Lac Hong University</option>
+    <option value="STU - Saigon Technology University">STU - Saigon Technology University</option>
+    <option value="VAN HIEN - Van Hien University">VAN HIEN - Van Hien University</option>
+    <option value="HCMUTE - Ho Chi Minh City University of Technology and Education">HCMUTE - Ho Chi Minh City University of Technology and Education</option>
+    <option value="UEL - University of Economics and Law">UEL - University of Economics and Law</option>
+    <option value="HCMULAW - Ho Chi Minh City University of Law">HCMULAW - Ho Chi Minh City University of Law</option>
+    <option value="Other">Other</option>
+</select>
             <div class="invalid-feedback"> Please select. </div>
             <input type="text" id="other-university" name="other-university" class="mt-3 form-control hidden" placeholder="Enter your University/College">
 
