@@ -275,7 +275,7 @@ $('#job2').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="formFile" name="position" value="B2B">
+    <input type="hidden" id="position" name="position" value="B2B">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -447,7 +447,7 @@ $('#job1').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="formFile" name="position" value="B2C">
+    <input type="hidden" id="position" name="position" value="B2C">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -618,7 +618,7 @@ $('#job3').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="formFile" name="position" value="SS">
+    <input type="hidden" id="position" name="position" value="SS">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -789,7 +789,7 @@ $('#job4').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="formFile" name="position" value="MBS">
+    <input type="hidden" id="position" name="position" value="MBS">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
