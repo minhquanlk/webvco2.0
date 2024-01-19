@@ -1899,11 +1899,7 @@ form .inputs-description {
 /* ------------------------------------------------*/
 
 .image-title {
-    background-repeat: no-repeat;
-    background-position: center top;
-    -moz-background-size: cover;
-    background-size: cover;
-    background-image: url(../img/demo/careers/CEO.jpg);
+    border-radius: 3.3rem;
 }
 
 .image-jd-1 {
@@ -2857,6 +2853,14 @@ form .inputs-description {
     width: 180px;
     background-color: #ec1c14;
     color: white;
+}
+
+.contact-size {
+    font-size: 4rem;
+}
+
+.contact-content-size {
+    font-size: 2.5rem;
 }
 
 .content-nav {

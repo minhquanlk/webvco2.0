@@ -31,7 +31,7 @@
 
     <!-- Template Styles Start -->
     <link rel="stylesheet" type="text/css" href="css/plugins-demo.css">
-
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/main-demo.css">
 
     <!-- Template Styles End -->
@@ -703,23 +703,116 @@
         </section>
 
         <!-- Intro Start -->
-        <div class="demo__intro mb-3 d-flex portfolio content-nav contact-nav home-nav flex-wrap">
+        <div class="demo__intro mb-3 d-flex content-nav contact-nav home-nav flex-wrap">
 
-            <div class="intro__content col-12 col-lg-5 column-1 image-title">
-                <div class="intro__container">
-
-                </div>
+            <div class="intro__content col-12 p-0 mb-3">
+                <img class="image-title" src="img/demo/contact.jpg">
             </div>
-            <div class="intro__content col-12 col-lg-7 column-2" style="min-height: 80vh">
+            <div class="intro__content col-12 py-6" style="min-height: 80vh">
                 <div class="intro__container">
                     <div class="container-fluid">
                         <div class="row gx-0">
                             <div class="col-12">
                                 <div class="headline">
-                                    <h1 class="headline__title"><b>Contact</b></h1>
+                                    <h1 class="headline__title contact-size"><b>Contact</b></h1>
 
-                                    <p class="">Schedule a complimentary consultation or send your inquiries to VCO Group.
+                                    <p class="contact-content-size mb-3">Schedule a complimentary consultation or send your inquiries to VCO Group.
                                     </p>
+                                    <div class="avd">
+                                        <form id="register-form" class="row form needs-validation avd-form" data-submit-ajax="false" data-redirect="true" novalidate="novalidate">
+                                            <div id="form1" class="mb-4">
+                                                <strong style="color: red;">*</strong> Required
+                                            </div>
+
+
+                                            <div class="mb-3 right-pd">
+                                                <label for="namecontact" class="form-label">1. Full Name: <strong style="color: red;">*</strong></label>
+                                                <input type="text" id="namecontact" name="namecontact" class="form-control required" placeholder="Enter your name" required="true" aria-required="true">
+
+                                            </div>
+
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="phonecontact" class="form-label">2. Phone Number: <strong style="color: red;">*</strong> </label>
+
+                                                    <input type="tel" id="phonecontact" name="phonecontact" class="form-control" aria-describedby="phone-addon" placeholder="Enter your phone number" required>
+
+
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="emailcontact" class="form-label">3. Email: <strong style="color: red;">*</strong> </label>
+                                                    <input type="email" id="emailcontact" name="emailcontact" class="form-control" placeholder="Enter your email" required>
+
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="degreecontact" class="form-label">4. You are currently a/an: <strong style="color: red;">*</strong></label>
+                                                    <select class="form-select" id="degreecontact" name="degreecontact" required>
+                                                    <option selected disabled value="">Choose your answer</option>
+                                                    <option value="Student who has not yet graduated as of 2024">  Student who has not yet graduated as of 2024 </option>
+                                                    <option value="Student graduating in 2024">Student graduating in 2024 </option>
+                                                    <option value="Graduate">Graduate with a Bachelor's/Engineering degree</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="workcontact" class="form-label">5. Your position at work: <strong style="color: red;">*</strong></label>
+                                                    <select class="form-select" id="workcontact" name="workcontact" required>
+                                                    <option selected disabled value="">Choose your answer</option>
+                                                    
+                                                    <option value="Director/Senior Manager of a business">Director/Senior Manager of a business</option>
+                                                    <option value="Department Head/Manager of a business">Department Head/Manager of a business</option>
+                                                    <option value="Specialist at a businessy">Specialist at a business</option>
+                                                    <option value="You have not started working">You have not started working</option>
+                                                    <option value="Other">Other</option>
+                                                </select>
+
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="placecontact" class="form-label">6. Your workplace or place of study: <strong style="color: red;">*</strong></label>
+                                                    <input type="text" id="placecontact" name="placecontact" class="form-control required" placeholder="Enter your answer" required="true" aria-required="true">
+                                                </div>
+                                                <div class="col-md-6 mb-3">
+                                                    <label for="solutionbooking" class="form-label">7. The solution you need us to consult on: <strong style="color: red;">*</strong></label>
+                                                    <select class="form-select" id="solutionbooking" name="solutionbooking" required>
+                                                    <option selected disabled value="">Choose your answer</option>
+                                                    
+                                                    <option value="RECRUITMENT MARKETING">RECRUITMENT MARKETING</option>
+                                                    <option value="EMPLOYER BRAND & TALENT PROGRAM SETUP">EMPLOYER BRAND & TALENT PROGRAM SETUP</option>
+                                                    <option value="IN-HOUSE CORPORATE TRAINING">IN-HOUSE CORPORATE TRAINING</option>
+                                                    <option value="EDUCATIONAL EVENT">EDUCATIONAL EVENT</option>
+                                                    <option value="WORKSHOP INDUSTRIAL WISDOM">  WORKSHOP INDUSTRIAL WISDOM</option>
+                                                  
+                                                    <option value="Other">Other</option>
+                                                </select>
+
+                                                </div>
+                                            </div>
+
+
+
+                                            <div class="mb-3 right-pd">
+                                                <label for="quescontact" class="form-label">8. Do you have any questions for VCO Group that you would like answered? <strong style="color: red;">*</strong></label>
+                                                <textarea class="form-control" id="quescontact" name="quescontact" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
+
+
+                                            </div>
+
+                                            <button class="btn btn-l mt-4" type="submit" style="width: 200px">
+                                            <span class="btn__background bg-danger"></span>
+                                            <span class="btn__text text-white">
+                                            <em class="btn-title">Send</em>
+                                            <em class="btn-hover">Send</em>
+                                            </span>
+                                        </button>
+                                            <div id="loading" style="display: none;  margin-top: 1rem;">
+                                                <p>Processing...</p>
+                                            </div>
+                                        </form>
+                                    </div>
                                 </div>
                             </div>
                         </div>
