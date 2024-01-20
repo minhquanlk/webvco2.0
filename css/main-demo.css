@@ -2888,3 +2888,64 @@ form .inputs-description {
         flex-wrap: nowrap !important;
     }
 }
+
+.btn-social-icon {
+    color: #fff;
+    /* White color icons */
+    border: 1px solid #fff;
+    /* White border */
+    border-radius: 50%;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    transition: all 0.3s ease;
+}
+
+.btn-social-icon.fb {
+    border-radius: 3rem;
+    width: 160px;
+    height: 40px;
+}
+
+.btn-social-icon:hover,
+.btn-social-icon:focus {
+    color: #262f3d;
+    /* Background color of footer */
+    background-color: #fff;
+    /* White background on hover */
+    text-decoration: none;
+}
+
+.footer-custom {
+    background-color: #262f3d;
+    color: #ffffff;
+    border-radius: 12px;
+    margin-top: 2rem;
+    padding-top: 2rem;
+}
+
+.footer-custom h6 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+.footer-custom a.text-muted {
+    color: #ffffff;
+    transition: color 0.2s;
+}
+
+.footer-custom a.text-muted:hover {
+    color: #d7d7d7;
+    text-decoration: none;
+}
+
+.bg-primary {
+    background-color: #ff6b6b !important;
+}
+
+.icon-container i {
+    color: #ffffff;
+    font-size: 24px;
+}
