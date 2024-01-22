@@ -403,10 +403,10 @@ $('#job2').on('click', function() {
 
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
-        <span class="btn__text text-white">
+        <h4 class="btn__text text-white">
         <em class="btn-title">Apply</em>
         <em class="btn-hover">Apply</em>
-        </span>
+        </h4>
     </button>
     <div id="loading" style="display: none;  margin-top: 1rem;">
         <p>Processing...</p>
@@ -583,10 +583,10 @@ $('#job1').on('click', function() {
 </div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
-        <span class="btn__text text-white">
+        <h4 class="btn__text text-white">
         <em class="btn-title">Apply</em>
         <em class="btn-hover">Apply</em>
-        </span>
+        </h4>
     </button>
     <div id="loading" style="display: none;  margin-top: 1rem;">
         <p>Processing...</p>
@@ -762,10 +762,10 @@ $('#job3').on('click', function() {
 </div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
-        <span class="btn__text text-white">
+        <h4 class="btn__text text-white">
         <em class="btn-title">Apply</em>
         <em class="btn-hover">Apply</em>
-        </span>
+        </h4>
     </button>
     <div id="loading" style="display: none;  margin-top: 1rem;">
         <p>Processing...</p>
@@ -941,10 +941,10 @@ $('#job4').on('click', function() {
 </div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
-        <span class="btn__text text-white">
+        <h4 class="btn__text text-white">
         <em class="btn-title">Apply</em>
         <em class="btn-hover">Apply</em>
-        </span>
+        </h4>
     </button>
     <div id="loading" style="display: none;  margin-top: 1rem;">
         <p>Processing...</p>
@@ -1121,10 +1121,10 @@ $('#job5').on('click', function() {
 </div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
-        <span class="btn__text text-white">
+        <h4 class="btn__text text-white">
         <em class="btn-title">Apply</em>
         <em class="btn-hover">Apply</em>
-        </span>
+        </h4>
     </button>
     <div id="loading" style="display: none;  margin-top: 1rem;">
         <p>Processing...</p>
