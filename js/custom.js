@@ -382,14 +382,8 @@ $('#job2').on('click', function() {
 
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
-    <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
-        <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
-        <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
-
-    </div>
-    <div class="col-md-12 mb-4 mt-3 right-pd">
-    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+        <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">11. The position you are applying for: <strong style="color: red;">*</strong> </label>
     <select class="form-select fw-semibold" id="position" name="position" required>
     <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
     <option selected value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
@@ -563,14 +557,8 @@ $('#job1').on('click', function() {
 
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
-    <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
-        <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
-        <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
-
-    </div>
-    <div class="col-md-12 mb-4 mt-3 right-pd">
-    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+        <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">11. The position you are applying for: <strong style="color: red;">*</strong> </label>
     <select class="form-select fw-semibold" id="position" name="position" required>
     <option selected value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
     <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
@@ -742,14 +730,8 @@ $('#job3').on('click', function() {
 
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
-    <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
-        <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
-        <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
-
-    </div>
-    <div class="col-md-12 mb-4 mt-3 right-pd">
-    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+        <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">11. The position you are applying for: <strong style="color: red;">*</strong> </label>
     <select class="form-select fw-semibold" id="position" name="position" required>
     <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
     <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
@@ -921,14 +903,8 @@ $('#job4').on('click', function() {
 
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
-    <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
-        <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
-        <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
-
-    </div>
-    <div class="col-md-12 mb-4 mt-3 right-pd">
-    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+        <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">11. The position you are applying for: <strong style="color: red;">*</strong> </label>
     <select class="form-select fw-semibold" id="position" name="position" required>
     <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
     <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
@@ -1101,14 +1077,8 @@ $('#job5').on('click', function() {
 
 
     <h4 class="mt-4 mb-3"><strong>III. Application</strong></h4>
-    <div class="mb-3 right-pd">
-        <label for="taskques" class="form-label">11. What is the most significant personal change you hope to achieve by joining VCO Group? <strong style="color: red;">*</strong></label>
-        <textarea class="form-control" id="taskques" name="taskques" rows="3" placeholder="Enter your answer" maxlength="1200" required></textarea>
-        <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
-
-    </div>
-    <div class="col-md-12 mb-4 mt-3 right-pd">
-    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+        <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">11. The position you are applying for: <strong style="color: red;">*</strong> </label>
     <select class="form-select fw-semibold" id="position" name="position" required>
     <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
     <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
