@@ -2163,9 +2163,9 @@ form .inputs-description {
 .portfolio-padding {
     padding: 5rem 0;
     background-repeat: no-repeat;
-    background-position: 10% 10%;
+    background-position: 10% 0%;
     -moz-background-size: cover;
-    background-size: cover;
+    background-size: 150%;
     background-image: url(../img/features/4.webp);
     background-color: white;
     cursor: pointer;
