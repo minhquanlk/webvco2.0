@@ -2896,8 +2896,8 @@ form .inputs-description {
     /* White border */
     border-radius: 50%;
     display: inline-block;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     line-height: 40px;
     transition: all 0.3s ease;
@@ -2905,17 +2905,41 @@ form .inputs-description {
 
 .btn-social-icon.fb {
     border-radius: 3rem;
-    width: 160px;
+    min-width: 180px;
     height: 40px;
+}
+
+.btn-social-icon.fb p {
+    color: #adb5bd !important;
 }
 
 .btn-social-icon:hover,
 .btn-social-icon:focus {
-    color: #262f3d;
+    color: #241717 !important;
     /* Background color of footer */
     background-color: #fff;
     /* White background on hover */
     text-decoration: none;
+}
+
+.btn-social-icon.fb:hover i,
+.btn-social-icon.fb:focus i {
+    color: #1b6afc;
+}
+
+.btn-social-icon:hover .fa-youtube,
+.btn-social-icon:focus .fa-youtube {
+    color: #ff0000;
+}
+
+.btn-social-icon:hover .fa-linkedin,
+.btn-social-icon:focus .fa-linkedin {
+    color: #1c69c3;
+}
+
+.btn-social-icon:hover .text-jd,
+.btn-social-icon:focus .text-jd {
+    color: #131417 !important;
 }
 
 .footer-custom {
