@@ -275,7 +275,7 @@ $('#job2').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="position" name="position" value="B2B">
+   
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -324,15 +324,15 @@ $('#job2').on('click', function() {
     </div>
     <div class="row">
         <div class="col-md-6 mb-3">
-            <label for="facebook" class="form-label">6. Facebook cá nhân: <strong style="color: red;">*</strong> </label>
+            <label for="facebook" class="form-label">6. Facebook: <strong style="color: red;">*</strong> </label>
 
             <input type="text" id="facebook" name="facebook" class="form-control" aria-describedby="phone-addon" placeholder="Enter your facebook link" required>
 
 
         </div>
         <div class="col-md-6 mb-3">
-            <label for="linkedin" class="form-label">7. Linkedin cá nhân: <strong style="color: red;">*</strong> </label>
-            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link" required>
+            <label for="linkedin" class="form-label">7. Linkedin: </label>
+            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link">
         </div>
     </div>
     <div class="col-md-12 mb-3 right-pd">
@@ -388,6 +388,18 @@ $('#job2').on('click', function() {
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
     </div>
+    <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+    <select class="form-select fw-semibold" id="position" name="position" required>
+    <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
+    <option selected value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
+    <option value="SOLUTIONS SUCCESS EXECUTIVE">SOLUTIONS SUCCESS EXECUTIVE</option>
+    <option value="MARKETING & BRANDING SUCCESS EXECUTIVE">MARKETING & BRANDING SUCCESS EXECUTIVE</option>
+    <option value="CEO ASSISTANT">CEO ASSISTANT</option>
+</select>
+    
+   
+</div>
 
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
@@ -445,7 +457,6 @@ $('#job1').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="position" name="position" value="B2C">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -494,15 +505,15 @@ $('#job1').on('click', function() {
     </div>
     <div class="row">
         <div class="col-md-6 mb-3">
-            <label for="facebook" class="form-label">6. Facebook cá nhân: <strong style="color: red;">*</strong> </label>
+            <label for="facebook" class="form-label">6. Facebook: <strong style="color: red;">*</strong> </label>
 
             <input type="text" id="facebook" name="facebook" class="form-control" aria-describedby="phone-addon" placeholder="Enter your facebook link" required>
 
 
         </div>
         <div class="col-md-6 mb-3">
-            <label for="linkedin" class="form-label">7. Linkedin cá nhân: <strong style="color: red;">*</strong> </label>
-            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link" required>
+            <label for="linkedin" class="form-label">7. Linkedin: </label>
+            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link">
         </div>
     </div>
     <div class="col-md-12 mb-3 right-pd">
@@ -558,7 +569,18 @@ $('#job1').on('click', function() {
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
     </div>
-
+    <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+    <select class="form-select fw-semibold" id="position" name="position" required>
+    <option selected value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
+    <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
+    <option value="SOLUTIONS SUCCESS EXECUTIVE">SOLUTIONS SUCCESS EXECUTIVE</option>
+    <option value="MARKETING & BRANDING SUCCESS EXECUTIVE">MARKETING & BRANDING SUCCESS EXECUTIVE</option>
+    <option value="CEO ASSISTANT">CEO ASSISTANT</option>
+</select>
+    
+   
+</div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
         <span class="btn__text text-white">
@@ -614,7 +636,6 @@ $('#job3').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="position" name="position" value="SS">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -663,15 +684,15 @@ $('#job3').on('click', function() {
     </div>
     <div class="row">
         <div class="col-md-6 mb-3">
-            <label for="facebook" class="form-label">6. Facebook cá nhân: <strong style="color: red;">*</strong> </label>
+            <label for="facebook" class="form-label">6. Facebook: <strong style="color: red;">*</strong> </label>
 
             <input type="text" id="facebook" name="facebook" class="form-control" aria-describedby="phone-addon" placeholder="Enter your facebook link" required>
 
 
         </div>
         <div class="col-md-6 mb-3">
-            <label for="linkedin" class="form-label">7. Linkedin cá nhân: <strong style="color: red;">*</strong> </label>
-            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link" required>
+            <label for="linkedin" class="form-label">7. Linkedin: </label>
+            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link">
         </div>
     </div>
     <div class="col-md-12 mb-3 right-pd">
@@ -727,7 +748,18 @@ $('#job3').on('click', function() {
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
     </div>
-
+    <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+    <select class="form-select fw-semibold" id="position" name="position" required>
+    <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
+    <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
+    <option selected value="SOLUTIONS SUCCESS EXECUTIVE">SOLUTIONS SUCCESS EXECUTIVE</option>
+    <option value="MARKETING & BRANDING SUCCESS EXECUTIVE">MARKETING & BRANDING SUCCESS EXECUTIVE</option>
+    <option value="CEO ASSISTANT">CEO ASSISTANT</option>
+</select>
+    
+   
+</div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
         <span class="btn__text text-white">
@@ -783,7 +815,6 @@ $('#job4').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="position" name="position" value="MBS">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -832,15 +863,15 @@ $('#job4').on('click', function() {
     </div>
     <div class="row">
         <div class="col-md-6 mb-3">
-            <label for="facebook" class="form-label">6. Facebook cá nhân: <strong style="color: red;">*</strong> </label>
+            <label for="facebook" class="form-label">6. Facebook: <strong style="color: red;">*</strong> </label>
 
             <input type="text" id="facebook" name="facebook" class="form-control" aria-describedby="phone-addon" placeholder="Enter your facebook link" required>
 
 
         </div>
         <div class="col-md-6 mb-3">
-            <label for="linkedin" class="form-label">7. Linkedin cá nhân: <strong style="color: red;">*</strong> </label>
-            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link" required>
+            <label for="linkedin" class="form-label">7. Linkedin: </label>
+            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link">
         </div>
     </div>
     <div class="col-md-12 mb-3 right-pd">
@@ -896,7 +927,18 @@ $('#job4').on('click', function() {
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
     </div>
-
+    <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+    <select class="form-select fw-semibold" id="position" name="position" required>
+    <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
+    <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
+    <option value="SOLUTIONS SUCCESS EXECUTIVE">SOLUTIONS SUCCESS EXECUTIVE</option>
+    <option selected value="MARKETING & BRANDING SUCCESS EXECUTIVE">MARKETING & BRANDING SUCCESS EXECUTIVE</option>
+    <option value="CEO ASSISTANT">CEO ASSISTANT</option>
+</select>
+    
+   
+</div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
         <span class="btn__text text-white">
@@ -953,7 +995,6 @@ $('#job5').on('click', function() {
     <div id="form1" class="mb-4">
         <strong style="color: red;">*</strong> Required
     </div>
-    <input type="hidden" id="position" name="position" value="CEO">
     <div class="mb-3 right-pd">
         <label for="formFile" class="form-label">Your Resume/CV (Filetype: PDF) <strong style="color: red;">*</strong></label>
         <input class="form-control required" type="file" id="formFile" name="formFile" required aria-required="true">
@@ -1002,15 +1043,15 @@ $('#job5').on('click', function() {
     </div>
     <div class="row">
         <div class="col-md-6 mb-3">
-            <label for="facebook" class="form-label">6. Facebook cá nhân: <strong style="color: red;">*</strong> </label>
+            <label for="facebook" class="form-label">6. Facebook: <strong style="color: red;">*</strong> </label>
 
             <input type="text" id="facebook" name="facebook" class="form-control" aria-describedby="phone-addon" placeholder="Enter your facebook link" required>
 
 
         </div>
         <div class="col-md-6 mb-3">
-            <label for="linkedin" class="form-label">7. Linkedin cá nhân: <strong style="color: red;">*</strong> </label>
-            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link" required>
+            <label for="linkedin" class="form-label">7. Linkedin: </label>
+            <input type="text" id="linkedin" name="linkedin" class="form-control" placeholder="Enter your linkedin link">
         </div>
     </div>
     <div class="col-md-12 mb-3 right-pd">
@@ -1066,7 +1107,18 @@ $('#job5').on('click', function() {
         <div id="introduce-help" class="form-text"><i>Please limit your answer in 300 words in English.</i></div>
 
     </div>
-
+    <div class="col-md-12 mb-4 mt-3 right-pd">
+    <label for="position" class="form-label">12. The position you are applying for: <strong style="color: red;">*</strong> </label>
+    <select class="form-select fw-semibold" id="position" name="position" required>
+    <option value="B2C SALES EXECUTIVE">B2C SALES EXECUTIVE</option>
+    <option value="B2B SALES EXECUTIVE">B2B SALES EXECUTIVE</option>
+    <option value="SOLUTIONS SUCCESS EXECUTIVE">SOLUTIONS SUCCESS EXECUTIVE</option>
+    <option value="MARKETING & BRANDING SUCCESS EXECUTIVE">MARKETING & BRANDING SUCCESS EXECUTIVE</option>
+    <option selected value="CEO ASSISTANT">CEO ASSISTANT</option>
+</select>
+    
+   
+</div>
     <button class="btn btn-l mt-4" type="submit">
         <span class="btn__background bg-danger"></span>
         <span class="btn__text text-white">
