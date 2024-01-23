@@ -2138,6 +2138,15 @@ form .inputs-description {
     display: none;
 }
 
+@media (max-width: 576px) {
+    .header__logo {
+        width: 130px !important;
+    }
+    .btn-s-icon {
+        height: 5.5rem !important;
+    }
+}
+
 @media (max-width: 768px) {
     .card__item {
         -webkit-box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
