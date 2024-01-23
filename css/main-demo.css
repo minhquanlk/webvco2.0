@@ -2239,13 +2239,22 @@ form .inputs-description {
     width: 100%;
 }
 
+.caption-apply {
+    overflow: hidden;
+    font-size: 3rem !important;
+}
+
 .career-card {
     height: 500px;
     background-color: black;
 }
 
 .mkt {
-    font-size: 2.3rem;
+    font-size: 2rem;
+}
+
+.function {
+    font-size: 2.5rem;
 }
 
 @media only screen and (min-width: 768px) {
@@ -2307,7 +2316,6 @@ form .inputs-description {
         -moz-background-size: cover;
         background-size: cover;
         background-image: url(../img/demo/projects.png);
-        height: 600px;
     }
 }
 
