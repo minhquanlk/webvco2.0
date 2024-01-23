@@ -2126,6 +2126,18 @@ form .inputs-description {
     box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
 }
 
+.text-solution {
+    font-size: 2rem !important;
+}
+
+.portfolio-nav {
+    flex-wrap: wrap;
+}
+
+.portfolio-padding .clients-v {
+    display: none;
+}
+
 @media (max-width: 768px) {
     .card__item {
         -webkit-box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
@@ -2142,22 +2154,31 @@ form .inputs-description {
         height: 200px;
     }
     .swiper.testimonial {
-        max-height: 300px;
+        max-height: 500px;
     }
+    .text-solution {
+        font-size: 1.5rem !important;
+    }
+    .portfolio-padding {
+        -moz-background-size: cover;
+        background-size: cover !important;
+    }
+    .portfolio-padding .clients-v {
+        display: block;
+    }
+    .portfolio-padding .clients-h {
+        display: none;
+    }
+}
+
+.text-jd {
+    font-size: 1.7rem !important;
 }
 
 .card__image {
     display: block;
     cursor: pointer;
     height: 100%;
-}
-
-.text-solution {
-    font-size: 2rem !important;
-}
-
-.text-jd {
-    font-size: 1.7rem !important;
 }
 
 .portfolio-padding {
