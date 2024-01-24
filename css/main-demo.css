@@ -2896,6 +2896,12 @@ form .inputs-description {
     color: white;
 }
 
+.btn-apply {
+    width: 220px;
+    background-color: #ec1c14;
+    color: white;
+}
+
 .contact-size {
     font-size: 4rem;
 }
