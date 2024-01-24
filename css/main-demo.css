@@ -2145,6 +2145,9 @@ form .inputs-description {
     .btn-s-icon {
         height: 5.5rem !important;
     }
+    .career-card {
+        height: 500px !important;
+    }
 }
 
 @media (max-width: 768px) {
@@ -2275,7 +2278,7 @@ form .inputs-description {
 }
 
 .career-card {
-    height: 500px;
+    height: 600px;
     background-color: black;
 }
 
