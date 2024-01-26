@@ -1391,9 +1391,11 @@ function filterContent(category) {
 
 
 
-                    var fileName = e.target.files[0].name;
-                    inputfile.value = fileName;
-                    uploadFile(e.target.files[0]);
+                    uploadFile(e.target.files[0]).then(downloadURL => {
+                        inputfile.value = downloadURL;
+                    }).catch(error => {
+                        console.error('Error during file upload:', error);
+                    });
 
                 });
             }
@@ -1408,9 +1410,11 @@ function filterContent(category) {
 
 
 
-                    var fileName = e.target.files[0].name;
-                    inputfile.value = fileName;
-                    uploadFile(e.target.files[0]);
+                    uploadFile(e.target.files[0]).then(downloadURL => {
+                        inputfile.value = downloadURL;
+                    }).catch(error => {
+                        console.error('Error during file upload:', error);
+                    });
 
                 });
             }
@@ -1424,9 +1428,11 @@ function filterContent(category) {
 
 
 
-                    var fileName = e.target.files[0].name;
-                    inputfile.value = fileName;
-                    uploadFile(e.target.files[0]);
+                    uploadFile(e.target.files[0]).then(downloadURL => {
+                        inputfile.value = downloadURL;
+                    }).catch(error => {
+                        console.error('Error during file upload:', error);
+                    });
 
                 });
             }
@@ -1441,9 +1447,11 @@ function filterContent(category) {
 
 
 
-                    var fileName = e.target.files[0].name;
-                    inputfile.value = fileName;
-                    uploadFile(e.target.files[0]);
+                    uploadFile(e.target.files[0]).then(downloadURL => {
+                        inputfile.value = downloadURL;
+                    }).catch(error => {
+                        console.error('Error during file upload:', error);
+                    });
 
                 });
             }
@@ -1457,9 +1465,11 @@ function filterContent(category) {
 
 
 
-                    var fileName = e.target.files[0].name;
-                    inputfile.value = fileName;
-                    uploadFile(e.target.files[0]);
+                    uploadFile(e.target.files[0]).then(downloadURL => {
+                        inputfile.value = downloadURL;
+                    }).catch(error => {
+                        console.error('Error during file upload:', error);
+                    });
 
                 });
             }
@@ -1470,10 +1480,6 @@ function filterContent(category) {
             if (!!fileButton) {
 
                 fileButton.addEventListener('change', function(e) {
-
-
-
-                    var fileName = e.target.files[0].name;
                     uploadFile(e.target.files[0]).then(downloadURL => {
                         inputfile.value = downloadURL;
                     }).catch(error => {
