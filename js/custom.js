@@ -1474,26 +1474,68 @@ function filterContent(category) {
 
 
                     var fileName = e.target.files[0].name;
-                    inputfile.value = fileName;
-                    uploadFile(e.target.files[0]);
+                    uploadFile(e.target.files[0]).then(downloadURL => {
+                        inputfile.value = downloadURL;
+                    }).catch(error => {
+                        console.error('Error during file upload:', error);
+                    });
+
 
                 });
             }
         });
     };
 
-    function uploadFile(file) {
+    // function uploadFile(file) {
+    //     var metadata = {
 
+    //         contentType: file.type,
+    //     };
+    //     var uploadTask = firebase.storage().ref('VCO2024/' + file.name).put(file, metadata);
+    //     uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
 
-        var metadata = {
+    //         function() {
+    //             uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+    //                 returnUrl = downloadURL;
+    //             });
+    //         });
+    //         return returnUrl;
+    // }
+    // function uploadFile(file) {
+    //     return new Promise((resolve, reject) => {
+    //         var metadata = {
+    //             contentType: file.type,
+    //         };
+    //         var uploadTask = firebase.storage().ref('VCO2024/' + file.name).put(file, metadata);
 
-            contentType: file.type,
-        };
-        var uploadTask = firebase.storage().ref('VCO2024/' + file.name).put(file, metadata);
+    //         uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED,
+    //             function(snapshot) {},
+    //             function(error) {
+    //                 reject(error);
+    //             },
+    //             function() {
+    //                 uploadTask.snapshot.ref.getDownloadURL().then(function(downloadURL) {
+    //                     resolve(downloadURL);
+    //                 });
+    //             }
+    //         );
+    //     });
+    // }
 
-
+    async function uploadFile(file) {
+        try {
+            var metadata = {
+                contentType: file.type,
+            };
+            var storageRef = firebase.storage().ref('VCO2024/' + file.name);
+            var uploadTaskSnapshot = await storageRef.put(file, metadata);
+            var downloadURL = await uploadTaskSnapshot.ref.getDownloadURL();
+            return downloadURL;
+        } catch (error) {
+            console.error('Upload failed:', error);
+            throw error;
+        }
     }
-
 
     window.addEventListener('load', initApp);
 
