@@ -1,0 +1,269 @@
+body,
+.demo__header {
+    background-color: #000000;
+}
+
+.header__logo {
+    background-color: #fff;
+    border-radius: 5rem;
+    padding: 0.4rem 1rem;
+}
+
+.intro__content {
+    background-color: none;
+    padding: 0rem !important;
+}
+
+.intro__content:hover .overlay {
+    opacity: 1 !important;
+}
+
+.intro__content:hover .overlay-container {
+    opacity: 1 !important;
+}
+
+.logo-title {
+    width: 15vw;
+}
+
+.overlay-container {
+    mask-image: linear-gradient(10deg, rgba(231, 19, 19, 0.41), rgba(231, 19, 19, 0.4)) !important;
+}
+
+.headline__title {
+    font-size: 5.5rem;
+    text-align: right;
+    color: white !important;
+    max-width: 100% !important;
+}
+
+.series-1 {
+    border-radius: 3.3rem;
+    background-color: #ec1c14;
+    -webkit-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    -moz-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+}
+
+.series-1:hover,
+.cost-1:hover,
+.cost-2:hover {
+    -webkit-transform: translate3d(0, -0.6rem, 0);
+    -moz-transform: translate3d(0, -0.6rem, 0);
+    transform: translate3d(0, -0.6rem, 0);
+    -webkit-box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
+    -moz-box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
+    box-shadow: 0 14px 28px rgba(24, 59, 126, 0.15), 0 10px 10px rgba(24, 59, 126, 0.12);
+}
+
+.v-iww {
+    color: rgb(117, 117, 117) !important;
+    text-align: right;
+    margin-top: 2rem;
+}
+
+.title-iww-1 {
+    font-size: 3rem;
+    color: rgb(255, 199, 199) !important;
+}
+
+.headline__title.cost {
+    text-align: left;
+}
+
+.cost-1 {
+    margin-left: -1rem !important;
+    -webkit-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    -moz-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+}
+
+.cost-2 {
+    margin-left: 1rem !important;
+    -webkit-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    -moz-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+    transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
+}
+
+.visual-iww {
+    border-radius: 3.3rem;
+    background-image: url(../img/demo/careers/iww.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    background-size: cover;
+    border: solid 1px white;
+}
+
+.title-iww {
+    font-size: 6rem;
+    color: #ec1c14 !important;
+    padding: 1rem 3rem;
+    background-color: white;
+    border-radius: 5rem;
+    width: fit-content;
+}
+
+.title-iww-2 {
+    font-size: 6rem;
+    width: fit-content;
+    color: white !important;
+}
+
+.headline {
+    width: auto !important;
+}
+
+.block-visual-1 {
+    border-radius: 3.3rem;
+    background-color: none;
+    border: solid 1px white;
+    padding: 2rem !important;
+}
+
+.block-visual-2 {
+    padding: 2rem !important;
+    margin-left: 1rem;
+    border-radius: 3.3rem;
+    background-color: none;
+    border: solid 1px white;
+}
+
+.countdown {
+    text-transform: none;
+    font-size: 5rem;
+    line-height: 1.2;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    color: #ff1414 !important;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.image-bg-about {
+    background-repeat: no-repeat;
+    background-position: left top;
+    background-image: url(../img/demo/bg-title.jpg);
+}
+
+.about-block {
+    border-radius: 3.3rem;
+    border: solid 1px white;
+    background-color: Transparent !important;
+}
+
+.subscribe__title {
+    width: fit-content;
+    max-width: 100%;
+}
+
+.career-card {
+    height: fit-content;
+}
+
+.career-day {
+    background-color: transparent !important;
+    border-radius: 0 !important;
+    pointer-events: none !important;
+}
+
+.card__caption.linear-black {
+    padding: 2rem;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.caption__title {
+    margin-bottom: 0;
+}
+
+.text-detail {
+    font-size: 1.8rem !important;
+}
+
+.subscribe__container {
+    background-image: url(../img/demo/talentprogram2.jpg);
+}
+
+.lesson-size {
+    font-size: 3rem;
+    height: fit-content !important;
+    padding: 1rem;
+    border-radius: 5rem;
+}
+
+.text-lesson {
+    font-size: 2rem;
+}
+
+.lesson-des {
+    text-align: center;
+    font-size: 2.5rem !important;
+}
+
+.text-fee {
+    font-size: 4vw;
+    font-weight: 700;
+    margin-bottom: -1.5rem;
+}
+
+.circle {
+    background-color: white !important;
+}
+
+.caption {
+    font-size: 2rem !important;
+    line-height: 2.5rem !important;
+    font-weight: 500 !important;
+}
+
+.title.we-s {
+    font-size: 4rem !important;
+}
+
+.descr.we-s {
+    font-size: 3rem !important;
+}
+
+@media (max-width: 768px) {
+    .headline__title {
+        font-size: 3.5rem !important;
+    }
+    .descr.opposite {
+        font-size: 2rem !important;
+    }
+    .title-iww-1 {
+        font-size: 1.7rem !important;
+    }
+    .title-iww,
+    .title-iww-2 {
+        font-size: 4rem !important;
+        margin-left: 0 !important;
+    }
+    #countdown1 {
+        padding-left: 0 !important;
+    }
+    .countdown {
+        font-size: 3rem !important
+    }
+    .series-1 {
+        margin-left: 0 !important;
+    }
+    .btn-mobile {
+        display: none !important;
+    }
+    .lesson-size {
+        font-size: 2.5rem;
+    }
+    .testimonial-pd {
+        margin-left: 0 !important;
+    }
+    .text-fee {
+        font-size: 6rem;
+    }
+}
+
+.logo-zoom {
+    position: absolute;
+    right: 2rem;
+    width: 120px;
+}
