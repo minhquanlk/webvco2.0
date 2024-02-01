@@ -39,7 +39,7 @@ body,
 
 .series-1 {
     border-radius: 3.3rem;
-    background-color: #ec1c14;
+    background-color: none !important;
     -webkit-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
     -moz-transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
     transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
@@ -57,8 +57,7 @@ body,
 }
 
 .v-iww {
-    color: rgb(117, 117, 117) !important;
-    text-align: right;
+    color: rgb(255, 179, 179) !important;
     margin-top: 2rem;
 }
 
@@ -85,6 +84,15 @@ body,
     transition: all 0.3s cubic-bezier(0.23, 0.65, 0.74, 1.09);
 }
 
+.bg-main {
+    background-image: url(../img/demo/bg-main2.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    background-size: cover;
+    max-width: unset !important;
+}
+
 .visual-iww {
     border-radius: 3.3rem;
     background-image: url(../img/demo/careers/iww.jpg);
@@ -92,7 +100,7 @@ body,
     background-position: center top;
     -moz-background-size: cover;
     background-size: cover;
-    border: solid 1px white;
+    z-index: 1;
 }
 
 .title-iww {
@@ -201,6 +209,12 @@ body,
 }
 
 .text-fee {
+    font-size: 3vw;
+    font-weight: 700;
+    margin-bottom: -1.5rem;
+}
+
+.text-fee.discount {
     font-size: 4vw;
     font-weight: 700;
     margin-bottom: -1.5rem;
@@ -212,8 +226,15 @@ body,
 
 .caption {
     font-size: 2rem !important;
-    line-height: 2.5rem !important;
+    line-height: 3rem !important;
     font-weight: 500 !important;
+    margin-bottom: 0.5rem;
+}
+
+.caption-2 {
+    font-size: 4.5rem !important;
+    line-height: 4.5rem !important;
+    font-weight: 800 !important;
 }
 
 .title.we-s {
@@ -258,7 +279,13 @@ body,
         margin-left: 0 !important;
     }
     .text-fee {
+        font-size: 4rem;
+    }
+    .text-fee.discount {
         font-size: 6rem;
+    }
+    .logo-zoom {
+        display: none !important;
     }
 }
 
@@ -270,4 +297,34 @@ body,
 
 .rounded-tag {
     margin: 3rem 0 1rem 0 !important;
+}
+
+.custom-pd {
+    max-width: 1760px;
+    margin: 0 auto;
+    padding: 0px 6.5rem 0 6.5rem;
+}
+
+.title-course {
+    margin-left: 3rem !important;
+}
+
+@media (max-width: 768px) {
+    .custom-pd {
+        padding: 0px 1rem;
+    }
+    .series-1 {
+        padding: 0 !important;
+    }
+    .title-course {
+        margin-left: 0 !important;
+    }
+    .caption-2 {
+        font-size: 3.5rem !important;
+        line-height: 3.5rem !important;
+    }
+}
+
+.discount {
+    color: rgb(255, 255, 157) !important;
 }

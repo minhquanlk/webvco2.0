@@ -539,7 +539,7 @@ h1 {
 
 @media only screen and (min-width: 768px) {
     .subscribe__title .title {
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .subscribe__title .descr {
         font-size: 2.2rem;
@@ -548,10 +548,10 @@ h1 {
 
 @media only screen and (min-width: 1400px) {
     .subscribe__title .title {
-        font-size: 6rem;
+        font-size: 4rem;
     }
     .subscribe__title .descr {
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
     .career-background .subscribe__title .title {
         font-size: 5rem;
