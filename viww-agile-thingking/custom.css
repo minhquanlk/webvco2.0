@@ -62,8 +62,8 @@ body,
 }
 
 .title-iww-1 {
-    font-size: 3rem;
-    color: rgb(255, 199, 199) !important;
+    font-size: 2.5rem;
+    color: rgb(160, 160, 160) !important;
 }
 
 .headline__title.cost {
@@ -156,8 +156,7 @@ body,
 
 .about-block {
     border-radius: 3.3rem;
-    border: solid 1px white;
-    background-color: Transparent !important;
+    background-color: rgb(46, 46, 46);
 }
 
 .subscribe__title {
@@ -189,7 +188,7 @@ body,
 }
 
 .subscribe__container {
-    background-image: url(../img/demo/talentprogram2.jpg);
+    background-image: url(../img/demo/talentprogram2.jpg) !important;
 }
 
 .lesson-size {
@@ -205,7 +204,15 @@ body,
 
 .lesson-des {
     text-align: center;
-    font-size: 2.5rem !important;
+    font-size: 1.7rem !important;
+}
+
+.help-font {
+    font-size: 1.7rem !important;
+}
+
+.text-solution {
+    font-size: 1.7rem !important;
 }
 
 .text-fee {
@@ -323,8 +330,69 @@ body,
         font-size: 3.5rem !important;
         line-height: 3.5rem !important;
     }
+    .descr.opposite.help-font {
+        font-size: 1.5rem !important;
+    }
 }
 
 .discount {
     color: rgb(255, 255, 157) !important;
+}
+
+.image-trainer-1 {
+    background-image: url(../img/demo/careers/Huyen.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 75vh;
+}
+
+.image-trainer-2 {
+    background-image: url(../img/demo/careers/Dung.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    background-size: cover;
+    height: 75vh;
+}
+
+.trainer-2 {
+    margin-top: -12rem;
+}
+
+.v-iww-title {
+    background-position: 80% bottom !important;
+}
+
+@media (max-width: 991px) {
+    .image-trainer-2 {
+        display: none !important;
+    }
+    .trainer-hide {
+        display: block !important;
+    }
+    .trainer-2 {
+        margin-top: 0 !important
+    }
+}
+
+.help-font.title {
+    min-height: 4rem !important;
+}
+
+@media (max-width: 1200px) {
+    .v-iww-title {
+        background-position: left bottom !important;
+    }
+}
+
+.title.opposite {
+    font-size: 3rem;
+}
+
+.in-reports {
+    font-style: italic;
+    font-size: 2rem;
+    color: white;
 }
