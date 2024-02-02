@@ -387,12 +387,101 @@ body,
     }
 }
 
-.title.opposite {
-    font-size: 3rem;
+.faq-container {
+    background-color: rgb(46, 46, 46);
+    padding: 0 1rem 0 3rem;
+    border-radius: 3rem;
+    margin: 1rem 0;
 }
 
-.in-reports {
-    font-style: italic;
-    font-size: 2rem;
+.btn-expand {
+    background-color: white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.faq-container h2 {
+    color: #fff;
+}
+
+.faq {
+    border-bottom: 1px solid #555;
+}
+
+.faq:last-child {
+    border-bottom: none;
+}
+
+.faq-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0;
+}
+
+.faq-title h3 {
+    margin: 0;
+    font-size: 1.7rem;
+    font-weight: 600;
     color: white;
+    max-width: 90%;
+}
+
+.faq-title p {
+    transition: transform 0.3s ease;
+}
+
+.faq-content {
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding-bottom: 2rem;
+    margin-top: -2rem;
+    transition: max-height 0.5s ease, opacity 0.5s ease, margin-top 0.5s ease;
+}
+
+.faq-content p {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: white;
+}
+
+.faq-content-inner {
+    padding: 0 20px;
+    /* Adjust padding as needed */
+}
+
+.faq-content.expanded {
+    max-height: 1000px;
+    margin-top: 1rem;
+    /* Set to a max value that your content would not exceed */
+    opacity: 1;
+}
+
+.faq-title.expanded p {
+    transform: rotate(-180deg);
+    background-color: #ec1c14;
+    color: white;
+}
+
+.video-faq {
+    width: 100%;
+    border-radius: 3rem;
+    margin-top: 0.5rem !important;
+}
+
+.video-faq {
+    display: none;
+    /* Initially hide videos */
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.video-visible {
+    display: block !important;
+    /* Make video block to show it */
+    opacity: 1 !important;
+    transition: opacity 0.5s ease;
 }
