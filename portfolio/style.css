@@ -997,6 +997,10 @@ a.read-more:hover:after {
     width: 100%;
 }
 
+.demo__header {
+    background-color: #ededed !important;
+}
+
 .portfolio-text-holder {
     position: absolute;
     left: 0;

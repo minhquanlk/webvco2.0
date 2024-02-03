@@ -324,7 +324,7 @@ body {
     overflow-x: hidden !important;
     font: normal 400 2.2rem/1.4 "Montserrat", sans-serif;
     text-rendering: optimizeLegibility;
-    background-color: #ededed;
+    background-color: #000000;
     color: #131417;
     height: auto;
 }
@@ -1519,7 +1519,7 @@ form .inputs-description {
     min-width: 320px;
     padding: 1.5rem;
     z-index: 10;
-    background-color: #ededed;
+    background-color: #000000;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -1642,7 +1642,7 @@ form .inputs-description {
     width: 100%;
     height: 620px;
     border-radius: 3.3rem;
-    background-color: black;
+    background-color: transparent;
 }
 
 .swiper-slide {
@@ -1657,7 +1657,7 @@ form .inputs-description {
 }
 
 .split-slide {
-    background-color: #131417;
+    background-color: transparent;
     background-position: center center;
     background-repeat: no-repeat;
     -moz-background-size: cover;
@@ -1758,10 +1758,6 @@ form .inputs-description {
     -webkit-transform: scale3d(1, 1, 1);
     -moz-transform: scale3d(1, 1, 1);
     transform: scale3d(1, 1, 1);
-}
-
-.swiper-pagination {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
 }
 
 .split-slider-btn-emeric-prev,
@@ -2185,6 +2181,7 @@ form .inputs-description {
 
 .text-jd {
     font-size: 1.7rem !important;
+    line-height: 2.2rem;
 }
 
 .card__image {
@@ -2199,7 +2196,6 @@ form .inputs-description {
     background-position: 10% 0%;
     -moz-background-size: cover;
     background-size: 150%;
-    background-image: url(../img/features/4.webp);
     background-color: white;
     cursor: pointer;
 }
@@ -2210,6 +2206,7 @@ form .inputs-description {
     -moz-background-size: cover;
     background-size: cover;
     height: 100%;
+    background-color: rgb(40, 40, 40);
 }
 
 .solution-pd {
@@ -2338,7 +2335,7 @@ form .inputs-description {
 
 .subscribe__container {
     position: relative;
-    background-color: #131417;
+    background-color: #000000;
     overflow: hidden;
 }
 
@@ -2952,7 +2949,7 @@ form .inputs-description {
 
 .btn-social-icon.fb {
     border-radius: 3rem;
-    min-width: 180px;
+    min-width: 200px;
     height: 40px;
 }
 
@@ -3019,4 +3016,8 @@ form .inputs-description {
 .icon-container i {
     color: #ffffff;
     font-size: 24px;
+}
+
+.bd-radius-3 {
+    border-radius: 3.3rem;
 }
