@@ -1582,6 +1582,9 @@ form .inputs-description {
 }
 
 .header__logo {
+    background-color: #fff;
+    border-radius: 5rem;
+    padding: 0.4rem 1rem;
     width: 220px;
 }
 
