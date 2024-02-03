@@ -1898,7 +1898,7 @@ form .inputs-description {
 /* ------------------------------------------------*/
 
 .image-title {
-    border-radius: 3.3rem;
+    border-radius: 3rem;
 }
 
 .image-jd-1 {
@@ -2127,6 +2127,13 @@ form .inputs-description {
 
 .text-solution {
     font-size: 2rem !important;
+}
+
+.chuthich {
+    color: rgb(210, 210, 210) !important;
+    font-size: 1.7rem !important;
+    font-style: italic !important;
+    margin-top: 5rem !important;
 }
 
 .portfolio-nav {
@@ -3023,4 +3030,127 @@ form .inputs-description {
 
 .bd-radius-3 {
     border-radius: 3.3rem;
+}
+
+.text-title {
+    font-size: 5rem !important;
+    font-weight: 800 !important;
+}
+
+.text-content {
+    font-size: 2.5rem
+}
+
+.background-title {
+    background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+}
+
+.container-album {
+    position: absolute;
+    top: 0;
+    left: 70vh;
+    z-index: -1;
+}
+
+.image-container {
+    width: 500px;
+    height: 260px;
+    border-radius: 3rem;
+    background-repeat: no-repeat;
+    background-position: center top;
+    -moz-background-size: cover;
+    background-size: cover;
+    margin-right: 1rem;
+}
+
+.overlay-linear {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0 auto;
+    width: 100vw;
+    height: 100%;
+    z-index: 0;
+    background: linear-gradient(78.83deg, #000 35%, transparent 85%);
+}
+
+.row-album-1 {
+    width: calc((500px + 1rem) * 12);
+    animation: scroll linear infinite;
+    animation-duration: calc(20s);
+}
+
+.row-album-2 {
+    margin-top: 0;
+    margin-left: 200px;
+    width: calc((500px + 1rem) * 12);
+    animation: scroll linear infinite;
+    animation-duration: calc(20s);
+}
+
+@media (max-width: 1300px) {
+    .text-title {
+        font-size: 4.5rem !important;
+        font-weight: 800 !important;
+    }
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc((-500px - 1rem) *6));
+        /* Move left the width of one image to loop continuously */
+    }
+}
+
+.image-title-1 {
+    background-image: url(../img/demo/masanbia.jpg);
+}
+
+.image-title-2 {
+    background-image: url(../img/demo/AD.jpg);
+}
+
+.image-title-3 {
+    background-image: url(../img/demo/heineken-1.jpg);
+}
+
+.image-title-4 {
+    background-image: url(../img/demo/spvb.jpg);
+}
+
+.image-title-5 {
+    background-image: url(../img/demo/loreal-mt21.jpg);
+}
+
+.image-title-6 {
+    background-image: url(../img/demo/wtrainee.jpg);
+}
+
+.image-title-7 {
+    background-image: url(../img/demo/finternship.jpg);
+}
+
+.image-title-8 {
+    background-image: url(../img/demo/brandstorm.jpg);
+}
+
+.image-title-9 {
+    background-image: url(../img/demo/campina.jpg);
+}
+
+.image-title-10 {
+    background-image: url(../img/demo/CFP2023.jpg);
+    background-position: left top;
+}
+
+.image-title-11 {
+    background-image: url(../img/demo/carlsberg.jpg);
+    background-position: left top;
+}
+
+.image-title-12 {
+    background-image: url(../img/demo/PnG2022.jpg);
 }
