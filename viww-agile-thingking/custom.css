@@ -385,6 +385,9 @@ body,
     .v-iww-title {
         background-position: left bottom !important;
     }
+    .faq-title h3 {
+        max-width: 85% !important;
+    }
 }
 
 .faq-container {

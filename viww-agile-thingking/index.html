@@ -99,6 +99,9 @@
                                 <a class="btn btn-s btn-s-icon d-flex align-items-center btn-2 btn-nav " id="benefits-nav">
                                 BENEFITS
                             </a>
+                                <a class="btn btn-s btn-s-icon d-flex align-items-center btn-2 btn-nav " id="faq-nav">
+                                FAQ
+                            </a>
                                 <a class="btn btn-s btn-s-icon d-flex align-items-center btn-2 btn-nav" id="fee-nav">
                                 ENTRANCE FEE
                             </a>
@@ -634,7 +637,7 @@
 
         </section>
 
-        <section class="demo__links first-section mb-3 content-nav solutions-nav home-nav">
+        <section class="demo__links first-section mb-3 content-nav solutions-nav home-nav" id="faq-section">
 
             <div class="links__card">
                 <div class="container-fluid p-0">
@@ -949,6 +952,16 @@
             document.getElementById('fee-nav').addEventListener('click', function() {
 
                 const element = document.getElementById('fee-entrance');
+                const rect = element.getBoundingClientRect();
+                const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+                window.scrollTo({
+                    top: rect.top + scrollTop - 105, // Trừ đi 200px
+                    behavior: 'smooth'
+                });
+            });
+            document.getElementById('faq-nav').addEventListener('click', function() {
+
+                const element = document.getElementById('faq-section');
                 const rect = element.getBoundingClientRect();
                 const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
                 window.scrollTo({
