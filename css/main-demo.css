@@ -3077,7 +3077,7 @@ form .inputs-description {
 .row-album-1 {
     width: calc((500px + 1rem) * 12);
     animation: scroll linear infinite;
-    animation-duration: calc(20s);
+    animation-duration: calc(25s);
 }
 
 .row-album-2 {
@@ -3085,7 +3085,7 @@ form .inputs-description {
     margin-left: 200px;
     width: calc((500px + 1rem) * 12);
     animation: scroll linear infinite;
-    animation-duration: calc(20s);
+    animation-duration: calc(25s);
 }
 
 @media (max-width: 1300px) {
